@@ -1,36 +1,16 @@
-////type object arrays
-var car={
-    color:'blue',
-    doorno:4
-}
-console.log(car.doorno);
-car.doorno=3;
-var strArr:string[]=[];
-strArr.push('aa');
+var a:any;
+a=1;
+a=true;
+console.log(a);
 
-var mixedArr:(string|number|boolean)[]=[];
-mixedArr.push(1);
-mixedArr.push('aa');
-mixedArr.push(true);
-console.log(mixedArr);
+var arr:any[];
+arr=[];
+arr.push(1);
+arr.push('aa');
+arr.push(true);
+console.log(arr);
 
-var mixed:number|string;
-mixed='jj';
-//mixed=true;
-console.log(mixed);
-
-
-
-var obj1:object;
-obj1={name:"sabbir",age:25}
-console.log(obj1);
-
-var obj2:{
-    name:string,
-    age:number
-}
-obj2={
-    name:'sabbir',
-    age:22
-}
-console.log(obj2);
+var obj:{property:any}
+obj={property:1}
+obj.property='any';
+console.log(obj);
