@@ -12,3 +12,16 @@ mixedArr.push(1);
 mixedArr.push('aa');
 mixedArr.push(true);
 console.log(mixedArr);
+var mixed;
+mixed = 'jj';
+//mixed=true;
+console.log(mixed);
+var obj1;
+obj1 = { name: "sabbir", age: 25 };
+console.log(obj1);
+var obj2;
+obj2 = {
+    name: 'sabbir',
+    age: 22
+};
+console.log(obj2);
