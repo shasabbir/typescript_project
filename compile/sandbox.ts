@@ -1,12 +1,15 @@
-var character = 'mario';
-
-console.log(character);
-var inputs = document.querySelectorAll('input');
-inputs.forEach(function (input) {
-    console.log(input);
-});
-
-var circle = (diameter:number) => {
-    return diameter * Math.PI;
+////type object arrays
+var car={
+    color:'blue',
+    doorno:4
 }
-console.log(circle(3));
+console.log(car.doorno);
+car.doorno=3;
+var strArr:string[]=[];
+strArr.push('aa');
+
+var mixedArr:(string|number|boolean)[]=[];
+mixedArr.push(1);
+mixedArr.push('aa');
+mixedArr.push(true);
+console.log(mixedArr);
